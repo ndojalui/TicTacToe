@@ -31,7 +31,7 @@ public class TicTacToe {
         while (winner == 'N' && !boardIsFull(board)) {
 
             // WRITE YOUR CODE HERE FOR THE GAME
-
+            
             // Asks player 1 to choose a tile and records the input.
             System.out.print(p1 + ", it is your turn...");
             printOptions();
@@ -164,7 +164,7 @@ public class TicTacToe {
         XdiagWinCounter = 0;
         OdiagWinCounter = 0;
         for(int i = 3; i<8; i+=2){
-            System.out.print(i);
+            //System.out.print(i);
             switch(board[i-1]){
                 case 'X':
                     XdiagWinCounter++;
